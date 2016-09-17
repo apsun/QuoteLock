@@ -50,6 +50,11 @@
     <string name="module_vnaas_name">Visual Novel as a Service (日本語)</string>
     <string name="module_hitokoto_name">Hitokoto 一言 (中文)</string>
     <string name="module_goodreads_name">Goodreads QotD (English)</string>
+    <string name="module_brainyquote_main_name">BrainyQuote QotD (English)</string>
+    <string name="module_brainyquote_art_name">BrainyQuote QotD - Art (English)</string>
+    <string name="module_brainyquote_funny_name">BrainyQuote QotD - Funny (English)</string>
+    <string name="module_brainyquote_love_name">BrainyQuote QotD - Love (English)</string>
+    <string name="module_brainyquote_nature_name">BrainyQuote QotD - Nature (English)</string>
     <string name="module_wikiquote_name">Wikiquote QotD (中文)</string>
     <string name="module_freakuotes_name">Freakuotes (Español)</string>
     <string name="module_natune_name">Natune.net (Deutsch)</string>
