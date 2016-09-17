@@ -15,7 +15,7 @@ public class BrainyquoteQuoteModule implements QuoteModule {
 
     protected BrainyquoteQuoteModule(int displayNameRes, String quoteCode) {
         m_displayNameRes = displayNameRes;
-        m_URL = String.format("http://feeds.feedburner.com/brainyquote/%s", quoteCode);
+        m_URL = String.format("http://feeds.feedburner.com/brainyquote/QUOTE%s", quoteCode);
     }
 
     @Override
