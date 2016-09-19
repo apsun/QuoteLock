@@ -2,11 +2,6 @@ package com.crossbowffs.quotelock.modules;
 
 import android.content.Context;
 import com.crossbowffs.quotelock.api.QuoteModule;
-import com.crossbowffs.quotelock.modules.brainyquote.BrainyquoteArtQuoteModule;
-import com.crossbowffs.quotelock.modules.brainyquote.BrainyquoteFunnyQuoteModule;
-import com.crossbowffs.quotelock.modules.brainyquote.BrainyquoteLoveQuoteModule;
-import com.crossbowffs.quotelock.modules.brainyquote.BrainyquoteMainQuoteModule;
-import com.crossbowffs.quotelock.modules.brainyquote.BrainyquoteNatureQuoteModule;
 import com.crossbowffs.quotelock.modules.brainyquote.BrainyquoteQuoteModule;
 import com.crossbowffs.quotelock.modules.custom.CustomQuoteModule;
 import com.crossbowffs.quotelock.modules.freakuotes.FreakuotesQuoteModule;
@@ -31,11 +26,7 @@ public class ModuleManager {
         addLocalModule(new WikiquoteQuoteModule());
         addLocalModule(new FreakuotesQuoteModule());
         addLocalModule(new NatuneQuoteModule());
-        addLocalModule(new BrainyquoteMainQuoteModule());
-        addLocalModule(new BrainyquoteArtQuoteModule());
-        addLocalModule(new BrainyquoteFunnyQuoteModule());
-        addLocalModule(new BrainyquoteLoveQuoteModule());
-        addLocalModule(new BrainyquoteNatureQuoteModule());
+        addLocalModule(new BrainyquoteQuoteModule());
         addLocalModule(new CustomQuoteModule());
     }
 
